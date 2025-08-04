@@ -353,9 +353,7 @@ def test_components():
     return jsonify(sample_data)
 
 if __name__ == '__main__':
-    # Remove or comment out app.run()
-    # app.run(debug=True, host='0.0.0.0', port=5000)
-    pass
+    app.run(host='0.0.0.0', port=10000)
 
 """
 BACKEND SETUP INSTRUCTIONS:
@@ -406,3 +404,4 @@ BUDGET LOGIC:
 - Case: 4-8% of budget
 - CPU Cooler: 2-8% of budget
 """
+
